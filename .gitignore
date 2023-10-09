@@ -1,0 +1,15 @@
+# Игнорировать системные файлы и папки Windows
+/Thumbs.db
+/ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Игнорировать временные файлы
+*.log
+*.tmp
+
+# Игнорировать папку node_modules
+/node_modules/
+
+# Игнорировать файлы .DS_Store на macOS
+.DS_Store

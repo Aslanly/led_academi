@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    &-container {
+        background-color: black;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+
+.Navigation-menu {
+    color: white;
+    background-color: slategrey;
+    text-align: center;
+    line-height: 24px;
+    padding: 10px;
+    width: 20%;
+}
+
+.Categories {
+    margin-bottom : 20px;
+}
+
+.Card {
+    margin: 10px;
+    .Card-title {
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+    .Card-content {
+        background-color: white;
+        display: flex;
+        
+    }
+    .Poster {
+        width: 100%;
+        background-color: blue;
+    }
+    .Description {
+        display: flex;
+        flex-direction: column;
+        gap: 10PX;
+        padding: 10px;
+
+        p {
+            font-weight: bold;
+        }
+
+        .Country {
+            display: flex;
+            gap: 5px;
+        }
+
+        .Year {
+            display: flex;
+            gap: 5px;
+        }
+
+        .Genres {
+            display: flex;
+            gap: 5px;
+        }
+    }
+
+}
+
+.Content {
+    background-color: silver;
+    width: 100%;
+
+    .Search-bar {
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+
+        .input {
+            width: 300px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+
+        .button {
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+    }
+}
